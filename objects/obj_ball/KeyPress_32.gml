@@ -1,8 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-if(ballActive == false){
-	speed = 10;
+if(ball_active == false){
+	speed = speed_ball;
 	direction = 90;
-	ballActive = true;
+	ball_active = true;
 }
