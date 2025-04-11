@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"new_blank",
+  "%Name":"Super Arkanoid",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -33,7 +33,7 @@
   "MetaData":{
     "IDEVersion":"2024.13.0.190",
   },
-  "name":"new_blank",
+  "name":"Super Arkanoid",
   "resources":[
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},},
     {"id":{"name":"obj_block_blue","path":"objects/obj_block_blue/obj_block_blue.yy",},},
