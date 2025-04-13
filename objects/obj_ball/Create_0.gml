@@ -2,4 +2,4 @@
 // Você pode escrever seu código neste editor
 
 ball_active = false;
-speed_ball = 7.5;
+speed_ball = 7;

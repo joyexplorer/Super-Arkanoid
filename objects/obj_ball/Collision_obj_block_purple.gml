@@ -1,5 +1,4 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-move_bounce_all(true);
-instance_destroy(other);
+scr_collisions_blocks();
