@@ -1,5 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-scr_collisions_blocks();
-scr_powerup();
+powerup = true;
+instance_destroy(other);
+alarm[0] = room_speed;
+alarm[1] = room_speed * 5;

@@ -1,11 +1,12 @@
-/// @description Inserir descrição aqui
+                                                  /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
 global.lifes--;
 
 if(global.lifes < 1){
-	global.lifes = 3;
+	
 	global.score = 0;
+	global.lifes = 3;
 	room_restart();
 }
 else{
