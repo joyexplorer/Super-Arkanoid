@@ -10,4 +10,5 @@ if(!instance_exists(obj_block_blue) && !instance_exists(obj_block_gray) && !inst
 		else{
 			room_goto(Room1);
 		}
+		audio_play_sound(snd_level_up, 10, false);
 }

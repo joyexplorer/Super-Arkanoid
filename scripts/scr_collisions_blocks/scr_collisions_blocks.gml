@@ -19,6 +19,7 @@ function scr_powerup(){
 	var random_number = irandom(9);
 	if(random_number == 9){
 		instance_create_layer(x, y, "instances_itens", obj_powerup);
+		audio_play_sound(snd_item_powerup, 10, false);
 	}
 
 }
