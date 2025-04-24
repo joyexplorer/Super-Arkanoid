@@ -7,7 +7,7 @@ if(global.lifes < 1){
 	
 	global.score = 0;
 	global.lifes = 3;
-	room_restart();
+	room_goto(Room1);
 }
 else{
 	instance_destroy();
