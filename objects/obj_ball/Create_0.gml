@@ -3,3 +3,4 @@
 
 ball_active = false;
 speed_ball = 7;
+

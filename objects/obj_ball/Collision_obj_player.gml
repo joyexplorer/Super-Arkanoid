@@ -6,17 +6,12 @@ if(ball_active == true){
 	move_bounce_solid(true);
 	direction = point_direction(other.x, other.y, x, y);
 	audio_play_sound(snd_collision, 10, false);
+	
+	move_outside_solid(direction, 2);
+	// Corrigir ângulos horizontais retos (esquerda/direita)
+	if ((direction > 175 && direction < 185) || (direction > 355 || direction < 5)) {
+    direction = (direction > 180) ? 160 : 20;
+}
 }
 
-/*
-if (ball_active == true) {
-    move_bounce_solid(true);
-    
-    var angle = point_direction(other.x, other.y, x, y);
 
-    // Limita o ângulo para evitar rebotes retos pra cima ou pra baixo
-    if (angle > 260 && angle < 280) angle = 260;
-    if (angle < 100 && angle > 80) angle = 100;
-
-    direction = angle;
-}
