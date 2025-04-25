@@ -11,6 +11,9 @@ if(ball_active == true){
 	// Corrigir ângulos horizontais retos (esquerda/direita)
 	if ((direction > 175 && direction < 185) || (direction > 355 || direction < 5)) {
     direction = (direction > 180) ? 160 : 20;
+	 // Ativa cooldown de colisão
+    can_hit_player = false;
+    hit_cooldown = 10; // número de frames de espera (~0.16s)
 }
 }
 

@@ -11,3 +11,9 @@ if ((direction > 175 && direction < 185) || (direction > 355 || direction < 5)) 
     direction = (direction > 180) ? 160 : 20;
 }
 
+if (!can_hit_player) {
+    hit_cooldown--;
+    if (hit_cooldown <= 0) {
+        can_hit_player = true;
+    }
+}
